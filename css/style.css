@@ -1,0 +1,158 @@
+body {
+    background-color: black;
+}
+
+p {
+    text-align: center;
+    padding: 5%;
+    font-weight: 500;
+    font-size: 1.125em;
+}
+
+quote {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.heading {
+    text-align: center;
+}
+
+h1 {
+    width: 100%;
+    height: 300px;
+    color:#8BAE38;
+    font-weight: 600;
+    padding: 50px;
+    font-size: 4em;
+    font-family: serif;
+}
+
+#about {
+    background-color: white;
+    padding: 2%;
+}
+
+#about img{
+    width: 20em;
+    height: 70%;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+#content {
+    padding:2%;
+}
+
+#content .container {
+    display: flex;
+    padding:30px;
+    border: 3px solid white;
+}
+
+.card {
+    height: auto;
+    width: 30%;
+    margin: auto;
+}
+
+.card img {
+    height: auto;
+    width: 100%;
+}
+
+#id .card{
+    display: flex;
+}
+
+.card p {
+    text-align: center;
+    color: #B7CB82;
+    font-weight: 900;
+    font-size:2em;
+    margin: auto;
+}
+
+footer{
+    background-color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer li {
+    padding: 50px;
+}
+
+/*EVENTS PAGE*/
+
+#events {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px auto;
+    height: 900px;
+}
+
+.event-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    height: 800px;
+    border: 3px solid black;
+}
+
+.event-card img{
+    width: 90%;
+    max-height: 535px;
+}
+
+.fb-bg {
+    background-color: #395895;
+    height:140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img.fb-img {
+    width: 100%;
+}
+
+/*CONTACT PAGE*/
+
+#contact{
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.contact-card{
+    width:29%;
+    height:300px;
+    font-size: 1.5em;
+    text-align: center;
+    border:3px solid black;
+}
+
+
+/*MEDIAQUERIES*/
+
+@media screen and (max-width: 796px){
+    #events{
+    }
+}
